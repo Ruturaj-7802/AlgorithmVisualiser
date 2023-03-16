@@ -1,0 +1,8 @@
+.rect{
+    background-color: black;
+    outline: 1px black;
+    height: 20px;
+    width: 50px;
+    border-radius: 3px;
+    margin-top: 100px;
+}

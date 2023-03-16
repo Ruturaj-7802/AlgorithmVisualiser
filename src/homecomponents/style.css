@@ -1,0 +1,390 @@
+
+.abbody{
+    background-color:#fffffff9;
+    margin-top: 50px;
+ 
+}
+.abcontainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+    
+    
+}
+
+.abe1{
+    position: absolute;
+    top: 280%;
+    left: 5%;
+    width: 15%;
+}
+.abe2{
+    position: absolute;
+    right: 4%;
+    top: 200%;
+    width: 8%;
+}
+
+.abcontainer .abcard{
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    border: 1px solid black;
+    background: linear-gradient(#4ca1af , #c4e0e5);
+    /* background: rgba(255,255,255,0.1); */
+    /* background-color: rgba(255,255,255,0.5); */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5); */
+    /* backdrop-filter: blur(5px) */
+}
+.abcontainer .abcard .content{
+    padding: 20px;
+    text-align: center;
+    transform: translateY(50px);
+    opacity: 1;
+    transform: 0.5s;
+}
+
+.abcontainer .abcard:hover .content{
+    transform: translateY(0px);
+    transition: 0.5s;
+    opacity: 1;
+}
+.abcontainer .abcard:hover .content .image{
+    transform: translateY(0px);
+    height: 150px;
+    transition: 0.5s;
+    opacity: 1;
+}
+.abcontainer .abcard .content h2{
+    position: absolute;
+    top: -80px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba(17, 3, 3, 0.2);
+    pointer-events: none;
+    z-index: -1;
+}
+.abcontainer .abcard .content h3{
+    font-size: 1.1em;
+    color: black;
+    font-weight: 600;
+    z-index: 1;
+
+}
+.abcontainer .abcard .content p{
+    color: black;
+    font-size: 1em;
+    opacity: 0;
+}
+.abcontainer .abcard:hover .content p{
+    color: black;
+    font-size: 1em;
+    font-weight:600;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+}
+.abcontainer .abcard:hover .content a .slogo1{
+    height:20px;
+    padding-left: 20px;
+    
+}
+
+
+.abcontainer .abcard .content .image{
+    height: 200px;
+    margin-bottom: 30px;
+    opacity: 1;
+    background-color: yellow;
+   
+}
+.abcontainer .abcard:hover .content .image{
+    height: 200px;
+    margin-bottom: 30px;
+    opacity: 1;
+    background-color: yellow;
+    
+}
+
+.slogo{
+    height: 20px;
+    padding-left: 10px;
+}
+.slogo2{
+    height: 20px;
+}
+.slogo3{
+    height: 20px;
+}
+.aboutus{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 40px;
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.footer{
+    background-color:#03121a;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    padding: 30px;
+    /* height: 50px; */
+}
+
+
+/* ****************************************** cards ******************************** */
+.cardcontainer{
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1300px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.card2{
+    position: relative;
+    width: 350px;
+    height: 250px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(2, 2, 57);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abcontainer .card2 .content{
+    padding: 20px;
+    text-align: center;
+    transform: translateY(50px);
+    opacity: 1;
+    transform: 0.5s;
+}
+
+.cardcontainer .card2:hover .content{
+    transform: translateY(0px);
+    transition: 0.5s;
+    opacity: 1;
+}
+.cardcontainer .card2 .content .image{
+    padding-bottom: 10px;
+    
+    transform: translateY(20px);
+    height: 100px;
+    transition: 0.5s;
+    opacity: 1;
+}
+.cardcontainer .card2:hover .content .image{
+    transform: translateY(0px);
+    height: 30px;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+
+.cardcontainer .card2 .content h2{
+    
+    transform: translateY(20px);
+    transition: 0.5s;
+    font-size: 1.8em;
+    color: white;
+    font-weight: 600;
+    z-index: 1;
+
+}
+.cardcontainer .card2:hover .content h2{
+    
+    transform: translateY(0px);
+    transition: 0.5s;
+    color: white;
+    font-weight: 600;
+    z-index: 1;
+
+}
+.cardcontainer .card2 .content p{
+    color: black;
+    font-size: 1em;
+    font-weight:300;
+    opacity: 0;
+}
+.cardcontainer .card2:hover .content p{
+    color: white;
+    font-size: 1em;
+    font-weight:300;
+    opacity: 1;
+}
+
+.cardcontainer .link{
+    text-decoration: none;
+}
+
+
+/* <---****************** About Section ******************---> */
+.about .content {
+    background-color: #f6f9ff;
+    padding: 40px;
+  }
+  .container{
+    /* background: red; */
+    /* margin: 0 0; */
+    
+  }
+  .about h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #4154f1;
+    text-transform: uppercase;
+  }
+  
+  .about h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #012970;
+  }
+  
+  .about p {
+    margin: 15px 0 30px 0;
+    line-height: 24px;
+  }
+  
+
+  /*  team section */
+  .team {
+    display: flex;
+    /* background: #2997c2; */
+    padding: 60px 0;
+    padding-right: 10px;
+    
+  }
+  
+  .team .member {
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.2);
+    transition: 0.3s;
+  }
+  
+  .team .member .member-img {
+    background-color:rgba(72, 67, 67, 0.566) ;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .team .member .member-img:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: url(../images/team/team-shape.svg) no-repeat center bottom;
+    background-size: contain;
+    z-index: 1;
+  }
+  
+  .team .member .social {
+    position: absolute;
+    right: -100%;
+    top: 30px;
+    opacity: 0;
+    border-radius: 4px;
+    transition: 0.5s;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 2;
+  }
+  
+  .team .member .social a {
+    transition: color 0.3s;
+    color: rgba(1, 41, 112, 0.5);
+    margin: 15px 12px;
+    display: block;
+    line-height: 0;
+    text-align: center;
+  }
+  
+  .team .member .social a:hover {
+    color: rgba(1, 41, 112, 0.8);
+  }
+  
+  .team .member .social i {
+    font-size: 18px;
+  }
+  
+  .team .member .member-info {
+    padding: 10px 15px 2px 5px;
+  }
+  
+  .team .member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #012970;
+  }
+  
+  .team .member .member-info span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #aaaaaa;
+  }
+  
+  .team .member .member-info p {
+    font-style: italic;
+    font-size: 14px;
+    padding-top: 5px;
+    line-height: 26px;
+    color: #5e5e5e;
+  }
+  
+  .team .member:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+  }
+  
+  .team .member:hover .social {
+    right: 8px;
+    opacity: 1;
+  }
+  .all_about{
+    display: flex;
+    width:100vw;
+    flex-direction: row;
+    align-items: center;
+  }
+  .iconss{
+    width: 50%;
+    margin-left: 25%;
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .profile-images{
+    width: 45vw;
+    height: 35vh;
+  }

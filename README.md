@@ -2,7 +2,8 @@ Algorithm VIsualiser : </br>
 
 Visualises sorting algorithms and algorithms like Sieve of Eratosthenes and N-Queen </br>
 Front-end : React.js
-Algorithms : Javascript
+Algorithms : Javascript </br>
+
 
 ![image](https://github.com/Ruturaj-7802/AlgorithmVisualiser/assets/76171596/97e656ad-dc92-49f7-8baf-f98d1e65a070) </br> </br>
 
